@@ -219,4 +219,5 @@ let precioProducto = 1000;
 let descuesto = 100;
 //Llamamos a la funcion
 let precioFinal = resta(suma(precioProducto,iva(precioProducto)),descuesto);
+//Por ultimo mostramos en pantalla
 console.log(precioFinal);
